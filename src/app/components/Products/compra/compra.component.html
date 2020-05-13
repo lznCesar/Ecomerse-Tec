@@ -1,0 +1,56 @@
+<div class="div-Globlal mt-3 fadeIn" >
+  <p class="m-5">
+    <span> HOME / </span>
+    <span style="color: grey;">I'm a Product</span>
+  </p>
+
+  <div class="ImgZona">
+    <div>
+      <img [src]="product.img" alt="" />
+    </div>
+    <div>
+      <p>
+        I'm a product description. I’m a great place to include more information
+        about your product. Buyers like to know what they’re getting before they
+        purchase.
+      </p>
+    </div>
+  </div>
+
+  <div class="InputZona">
+    <div class="Modelo">
+      <h4>
+        {{product.model}}
+      </h4>
+      <span> SKU:0020</span>
+    </div>
+    <div class="precio">
+      <span>
+        {{product.price}}
+      </span>
+    </div>
+    <div class="cantidad">
+      <label for="">Cantidad</label>
+
+      <input type="number" placeholder="1" />
+    </div>
+    
+    <div class="Meses">
+      <label for="">Meses sin Interes</label>
+
+      <input type="number" placeholder="1" min="1" max="9" />
+    </div>
+    <div class="mt-3 boton">
+      <button type="button" class="btn btn-success">Add to car</button>
+    </div>
+  </div>
+
+  <div class="info">
+    <h5>
+      PRODUCT INFO
+    </h5>
+    <p>
+    {{product.description}}
+    </p>
+  </div>
+</div>

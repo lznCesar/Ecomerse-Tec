@@ -1,0 +1,18 @@
+<div class="fadeIn"> 
+    <div>
+        <h2>FOTOGRAFIA</h2>
+    </div>
+    <div class="row"> 
+        <div class="col-3 m-auto" *ngFor="let Camaras of productsShow">
+            <div class="tarjeta">
+                <div>
+                    <img [src]="Camaras.img" alt="">
+                    <span>Mostrar Detalles</span>
+                </div>
+                <span>{{Camaras.model}}</span>
+                <span>{{Camaras.price}}</span>
+            </div>
+        </div>
+        </div>
+
+</div>

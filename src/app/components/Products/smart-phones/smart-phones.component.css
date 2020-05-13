@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 .tarjeta {
     width: 100%;
     height: 60vh;
@@ -15,6 +12,7 @@
     width: 80%;
     display: block;
     margin: auto;
+    cursor: pointer;
 }
 
 .tarjeta div{
@@ -54,17 +52,4 @@
 
     display: block;
     transition: 0.5s;
-}
-
-.fadeIn{
-animation: animation .5s forwards;
-}
-
-@keyframes animation{
-    from{
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }

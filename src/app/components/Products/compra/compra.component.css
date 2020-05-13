@@ -1,0 +1,66 @@
+.div-Globlal{
+padding: 15px 250px;
+height: 110vh;
+}
+
+.ImgZona{
+    float: left;
+    width: 60%;
+    margin: 20px;
+}
+
+.ImgZona p{
+    font-size: 15px;
+    text-align: justify;
+    height: 50vh;
+}
+
+InputZona{
+    float: left;
+    width: 40%;
+    margin: 15px;
+}
+
+.Modelo{
+margin: 4vh;
+}
+
+.Modelo span{
+    color: grey;
+}
+
+.precio{
+    margin: 4vh;
+}
+
+.cantidad{
+display: flex;
+flex-direction: column;
+margin: 5vh;
+}
+
+.cantidad label {
+    color: grey;
+}
+
+.Meses{
+    font-size: 15px;
+    display: flex;
+flex-direction: column;
+    text-align: justify;  
+    margin: 5vh;
+}
+
+.Meses label {
+    color: grey;
+}
+
+button{
+    background: rgba(37, 150, 71, 0.651)
+}
+
+.info{
+    font-size: 12px;
+    text-align: justify;
+    margin-top: 30px;
+}

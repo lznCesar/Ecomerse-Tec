@@ -1,0 +1,58 @@
+.Custumer{
+    background:#ffffff;
+    width: 100%;
+    padding: 0 200px;
+    height: 90vh;
+}
+
+.Custumer h3{
+    padding: 30px;
+    font-size: 35px;
+letter-spacing: 2px;
+}
+
+.Custumer > .mensaje > p{
+    font-size: 28px;
+    
+}
+
+ .font-weight-bold{
+    background: pink;
+
+}
+
+.rowInput{
+
+align-items: center;
+width: 100%;
+
+}
+
+.inputsJunt {
+    width: 65%;
+    float: left;
+}
+ .InputDiv{
+    margin:5px 3px;
+    width: 100%;
+}
+
+.InputDiv input {
+    width: 100%;
+    height: 7vh;
+}
+
+.inputSeparado{
+    width: 35%;
+    float: left; 
+}
+
+.Message{
+  margin: 5px;
+    width: 100%;
+}
+
+.Message input{
+    width: 100%;
+    height: 23vh;
+}

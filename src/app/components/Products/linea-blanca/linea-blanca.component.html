@@ -1,0 +1,18 @@
+<div class="fadeIn">
+    <div>
+        <h2>LINEA BLANCA</h2>
+    </div>
+    <div class="row"> 
+        <div class="col-3 m-auto" *ngFor="let LineaB of productsShow">
+            <div class="tarjeta">
+                <div>
+                    <img [src]="LineaB.img" alt="">
+                    <span>Mostrar Detalles</span>
+                </div>
+                <span>{{LineaB.model}}</span>
+                <span>{{LineaB.price}}</span>
+            </div>
+        </div>
+        </div>
+
+</div>
